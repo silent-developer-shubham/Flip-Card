@@ -26,6 +26,7 @@ body {
   overflow: hidden;
   cursor: pointer;
   border-radius: 8px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .card-image {
@@ -38,7 +39,6 @@ body {
 
 .card-image img {
   width: 400px;
-  border-radius: 8px;
 }
 
 .card-info {
@@ -51,7 +51,6 @@ body {
   background-color: #a0a0a0;
   transform: translateY(145px);
   transition: 1s ease-in;
-  border-radius: 8px;
 }
 
 .card:hover .card-info {
